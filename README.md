@@ -49,77 +49,12 @@ npm run dev
 bun dev
 ```
 
-## Deployment
+## Deployed at Netlify
 
-### Option 1: Vercel (Recommended)
-
-1. **Install Vercel CLI**:
-   ```bash
-   npm i -g vercel
+ **Link**:
+   ```link
+   https://jade-heliotrope-fdd823.netlify.app
    ```
-
-2. **Deploy**:
-   ```bash
-   vercel
-   ```
-
-3. **Configure Environment Variables** in Vercel Dashboard:
-   - `VITE_SUPABASE_URL`
-   - `VITE_SUPABASE_ANON_KEY`
-
-### Option 2: Netlify
-
-1. **Install Netlify CLI**:
-   ```bash
-   npm install -g netlify-cli
-   ```
-
-2. **Deploy**:
-   ```bash
-   netlify deploy --prod --dir=dist
-   ```
-
-3. **Configure Environment Variables** in Netlify Dashboard
-
-### Option 3: GitHub Pages
-
-1. **Add GitHub Pages workflow**:
-   ```bash
-   # Create .github/workflows/deploy.yml
-   ```
-
-2. **Push to GitHub**:
-   ```bash
-   git add .
-   git commit -m "Deploy to GitHub Pages"
-   git push origin main
-   ```
-
-### Option 4: Firebase Hosting
-
-1. **Install Firebase CLI**:
-   ```bash
-   npm install -g firebase-tools
-   ```
-
-2. **Initialize Firebase**:
-   ```bash
-   firebase init hosting
-   ```
-
-3. **Deploy**:
-   ```bash
-   firebase deploy
-   ```
-
-## Environment Variables
-
-Create a `.env.local` file:
-
-```env
-VITE_SUPABASE_URL=your_supabase_url
-VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-```
 
 ## Supabase Configuration
 

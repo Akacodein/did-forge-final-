@@ -19,6 +19,11 @@ A modern decentralized identity platform built with React, TypeScript, and Supab
 - **3D Graphics**: Three.js, React Three Fiber
 - **Routing**: React Router DOM
 
+
+
+https://github.com/user-attachments/assets/725e34d6-2c34-456b-a177-3e744de81392
+
+
 ## Quick Start
 
 ### Prerequisites

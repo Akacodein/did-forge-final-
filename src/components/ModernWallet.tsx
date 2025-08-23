@@ -43,6 +43,7 @@ export const ModernWallet = () => {
         .select('*')
         .eq('id', user.id)
         .single();
+        .maybeSingle();
 
       if (profile?.full_name?.startsWith('0x')) {
         setConnectedAddress(profile.full_name);

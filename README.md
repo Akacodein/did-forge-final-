@@ -60,6 +60,8 @@ bun dev
    ```link
    https://jade-heliotrope-fdd823.netlify.app
    ```
+## 📝Note
+   - If you didn.t receieve a confirmation mail after Sing up, no issuues (it might be due to server side issues) you ca simply Sign in with your Sign up credentials after you see the account has been creadted msg on screen
 
 ## Supabase Configuration
 
